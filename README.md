@@ -34,6 +34,17 @@ Or manually:
 pip install numpy scipy matplotlib librosa textual
 ```
 
+Tkinter is not distributed through PyPI and must be installed in other ways:
+
+Debian:
+```bash
+sudo apt install python3-tk
+```
+MacOS:
+```bash
+brew install python-tk
+```
+
 ---
 
 ## Installation
