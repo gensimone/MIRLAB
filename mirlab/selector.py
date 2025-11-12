@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
 
-# select a file with Tk, then write it as a temp file
 def select_file_with_gui():
+    """ select a file with Tk, then write it as a temp file """
     root = tk.Tk()
     root.withdraw()
     file_path = filedialog.askopenfilename(title="Select WAV file", filetypes=[("WAV files", "*.wav")])
